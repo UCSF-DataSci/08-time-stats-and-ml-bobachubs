@@ -22,7 +22,7 @@ TREATMENT_COLS = [
     'adherence', 'outcome'
 ]
 
-def generate_patient_cohort(n_patients=1000, random_seed=42):
+def generate_patient_cohort(n_patients=10000, random_seed=42):
     """Generate a cohort of patients with baseline characteristics."""
     np.random.seed(random_seed)
     
